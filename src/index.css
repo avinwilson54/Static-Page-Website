@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.bg {
+  padding: 50px;
+  background-color: #F0EBE3;
+}
+
+.heading-style {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.para-style {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 20px;
+  width: 550px;
+  margin: 10px auto;
+  text-align: left;
+}
+
+.form-name, .form-email, .form-comment {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  width: 40%;
+}
+
+.carousel {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+  overflow: visible;
+}
